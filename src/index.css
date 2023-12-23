@@ -1,0 +1,31 @@
+:root {
+  --primary-cyan_strong: hsl(172, 67%, 45%);
+  --neutral-cyan_dark: hsl(183, 100%, 15%);
+  --neutral-cyan_darkgrayish: hsl(186, 14%, 43%);
+  --neutral-cyan_grayish: hsl(184, 14%, 56%);
+  --neutral-cyan_lightgrayish: hsl(185, 41%, 84%);
+  --neutral-cyan_verylightgrayish: hsl(189, 41%, 97%);
+  --neutral-white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
+
+input:focus {
+  outline: none;
+}
